@@ -1,4 +1,4 @@
-# how_to_use.txt
+# 01_how_to_use.txt
 # version: 1.1.0
 # spellbook_for_writers — onboarding guide
 
@@ -21,21 +21,21 @@ WHAT'S IN THE FOLDER
 
   01_how_to_use.txt           This file. Start here.
 
-  04_latest_save.txt          Your most recent save, always up to date.
+  02_latest_save.txt          Your most recent save, always up to date.
                                Load this to catch the AI up instantly.
 
-  05_characters.txt           Your character registry.
+  03_characters.txt           Your character registry.
                                Add characters by appending at the bottom.
 
-  06_world_notes.txt          Your world: setting, history, atmosphere.
+  04_world_notes.txt          Your world: setting, history, atmosphere.
                                Append-only — the history stays intact.
 
-  07_lexicon.txt              Your world's vocabulary.
+  05_lexicon.txt              Your world's vocabulary.
                                Terms, places, slang, named things.
 
-  08_story_arc.txt            Your plot. Acts, chapters, open threads.
+  06_story_arc.txt            Your plot. Acts, chapters, open threads.
 
-  09_ledger.txt               Living canon document. NOT append-only.
+  07_ledger.txt               Living canon document. NOT append-only.
                                Edit freely. Tracks current world state:
                                who's alive, what's true, what has changed.
 
@@ -58,7 +58,7 @@ OPTION A — Quick start (minimal):
   Load these 3 files into your AI chat:
     1. 00_spine_of_the_world.txt
     2. A summon from summons/ (e.g. the_archivist.txt)
-    3. 04_latest_save.txt
+    3. 02_latest_save.txt
 
   Then say: "We're continuing [project name]. Here's where we left off."
   The AI will read the files and pick up from your last save.
@@ -89,7 +89,7 @@ The AI will output a completed save block titled save_file<N>.txt.
 
 YOU DO TWO THINGS:
   1. Copy the save block and save it as that filename in your save_files/ folder.
-  2. Replace 04_latest_save.txt with the second block the AI outputs.
+  2. Replace 02_latest_save.txt with the second block the AI outputs.
 
 That's it. Your progress is saved.
 
@@ -115,7 +115,7 @@ Next time you open a session, load your files and pick up exactly where you left
 HOW TO UPDATE YOUR WORLD FILES
 ================================================================
 
-APPEND-ONLY FILES (05 through 08):
+APPEND-ONLY FILES (03 through 06):
   These files only grow downward. Old entries stay.
   Never delete or edit above the last entry.
 
@@ -127,7 +127,7 @@ APPEND-ONLY FILES (05 through 08):
 
   The AI will output the new entry. You paste it at the bottom of the right file.
 
-THE LEDGER (09_ledger.txt):
+THE LEDGER (07_ledger.txt):
   This is a living document — edit it freely at any time.
   It tracks current world canon: who's alive, what's true, what has shifted.
   Unlike the append-only files, old entries here can be updated or removed.
@@ -165,9 +165,9 @@ GLOSSARY
                 Triggered by saying "camp."
 
   Append-only   A file that only grows downward. Old entries stay.
-                Never delete or edit above the last entry. (Files 05–08)
+                Never delete or edit above the last entry. (Files 03–06)
 
-  Ledger        09_ledger.txt. Living canon document. Freely editable.
+  Ledger        07_ledger.txt. Living canon document. Freely editable.
                 Tracks current world state — not a history, a snapshot.
 
   Plain mode    Drops the AI persona. Direct and technical.

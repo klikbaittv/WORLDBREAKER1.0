@@ -22,9 +22,9 @@ When a save is triggered:
        "Save this as save_file<N>.txt in your save_files/ folder."
 
   4. Output a second identical block titled:
-       # LATEST SAVE (04_latest_save.txt)
+       # LATEST SAVE (02_latest_save.txt)
      Tell the writer:
-       "Replace 04_latest_save.txt with this content."
+       "Replace 02_latest_save.txt with this content."
 
   5. If this is a CAMP save (triggered by the camp command):
      - Mark the save type as "CAMP SAVE"

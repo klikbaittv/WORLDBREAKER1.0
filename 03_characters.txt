@@ -1,6 +1,6 @@
 <append only, read all entirety before responding and making decisions>
 
-# characters.txt
+# 03_characters.txt
 # version: 1.0.0
 # CHARACTER REGISTRY — append-only
 # Add characters at the bottom. Never edit or delete above the last entry.

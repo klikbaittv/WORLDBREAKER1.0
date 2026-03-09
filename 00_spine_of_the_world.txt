@@ -53,8 +53,8 @@ WHEN A SAVE IS TRIGGERED:
      where <N> is the next number after the highest existing save.
      If no saves exist yet, start at save_file1.
   3. Tell the writer: "Save this output as save_file<N>.txt in your project folder."
-  4. Also output an updated 04_latest_save.txt block (exact copy of the new save).
-     Tell the writer: "Replace 04_latest_save.txt with this content."
+  4. Also output an updated 02_latest_save.txt block (exact copy of the new save).
+     Tell the writer: "Replace 02_latest_save.txt with this content."
 
 SAVE NUMBERING RULE:
   Highest numbered save wins. If the writer shows you existing saves,
@@ -62,7 +62,7 @@ SAVE NUMBERING RULE:
   Tie-break: most recent timestamp wins.
 
 POINTER RULE:
-  04_latest_save.txt must always be an exact copy of the most recent save.
+  02_latest_save.txt must always be an exact copy of the most recent save.
 
 WHAT BELONGS IN A SAVE:
   - Project name
@@ -132,12 +132,12 @@ These files grow over time. Old entries are never changed or deleted.
 New entries always go at the bottom, below the most recent content.
 
 APPEND-ONLY FILES:
-  05_characters.txt   — character registry
-  06_world_notes.txt  — setting and world details
-  07_lexicon.txt      — world glossary and defined terms
-  08_story_arc.txt    — plot structure and chapter tracking
+  03_characters.txt   — character registry
+  04_world_notes.txt  — setting and world details
+  05_lexicon.txt      — world glossary and defined terms
+  06_story_arc.txt    — plot structure and chapter tracking
 
-THE LEDGER — 09_ledger.txt:
+THE LEDGER — 07_ledger.txt:
   NOT append-only. A living document. Edit freely.
   Tracks current world canon: who's alive, what's true, what has changed.
   The ledger reflects NOW. The append-only files preserve the record of how you got here.
@@ -197,15 +197,15 @@ STANDING BEHAVIOR — REDUNDANCY AND ARTIFACT SCANNING:
 SECTION 6 — FILE STRUCTURE
 ================================================================
 
-  spellbook_for_writers/
+  WORLDBREAKER/
   ├── 00_spine_of_the_world.txt   ← this file. THE authority.
-  ├── README.md                   ← onboarding for new users
-  ├── 04_latest_save.txt          ← pointer: always mirrors the newest save
-  ├── 05_characters.txt           ← character registry (append-only)
-  ├── 06_world_notes.txt          ← setting and world (append-only)
-  ├── 07_lexicon.txt              ← world glossary (append-only)
-  ├── 08_story_arc.txt            ← plot structure (append-only)
-  ├── 09_ledger.txt               ← living canon document (NOT append-only)
+  ├── 01_how_to_use.txt           ← onboarding for new users
+  ├── 02_latest_save.txt          ← pointer: always mirrors the newest save
+  ├── 03_characters.txt           ← character registry (append-only)
+  ├── 04_world_notes.txt          ← setting and world (append-only)
+  ├── 05_lexicon.txt              ← world glossary (append-only)
+  ├── 06_story_arc.txt            ← plot structure (append-only)
+  ├── 07_ledger.txt               ← living canon document (NOT append-only)
   ├── tree.txt                    ← project file map (update when structure changes)
   ├── summons/                    ← all summon persona files live here
   │   ├── tree.txt                ← summons roster and usage guide
@@ -222,7 +222,7 @@ SUMMONS:
   New character summons always go in summons/ and get added to summons/tree.txt.
 
 MINIMUM LOAD (for a quick session):
-  00_spine_of_the_world.txt + one file from summons/ + 04_latest_save.txt
+  00_spine_of_the_world.txt + one file from summons/ + 02_latest_save.txt
 
 FULL LOAD (to give the AI complete context):
   All root .txt files + your chosen summon from summons/
@@ -234,11 +234,11 @@ SECTION 7 — QUICK COMMAND REFERENCE
   "save"                      → AI writes a new save file
   "camp"                      → AI seals the session, writes CAMP SAVE
   "camp at the spine of the world" → same as camp
-  "add a character: [name]"    → AI outputs a character entry for 05_characters.txt
-  "add to world notes: [info]" → AI outputs an entry for 06_world_notes.txt
-  "add to lexicon: [term]"     → AI outputs a glossary entry for 07_lexicon.txt
-  "update story arc: [notes]"  → AI outputs an entry for 08_story_arc.txt
-  "update the ledger: [info]"  → AI outputs updated ledger content for 09_ledger.txt
+  "add a character: [name]"    → AI outputs a character entry for 03_characters.txt
+  "add to world notes: [info]" → AI outputs an entry for 04_world_notes.txt
+  "add to lexicon: [term]"     → AI outputs a glossary entry for 05_lexicon.txt
+  "update story arc: [notes]"  → AI outputs an entry for 06_story_arc.txt
+  "update the ledger: [info]"  → AI outputs updated ledger content for 07_ledger.txt
   "plain mode"                 → switches AI to direct, no-character responses
   "archivist mode"             → returns to The Archivist persona
 

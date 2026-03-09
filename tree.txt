@@ -9,20 +9,20 @@ spellbook_for_writers/
   00_spine_of_the_world.txt   THE authority. AI reads this first. All rules live here.
                                Load this in every session.
 
-  README.md                   Onboarding guide. Start here if you're new.
+  01_how_to_use.txt           Onboarding guide. Start here if you're new.
 
-  04_latest_save.txt          Pointer to your most recent save.
+  02_latest_save.txt          Pointer to your most recent save.
                                Always mirrors the highest-numbered save_file.
 
-  05_characters.txt           Character registry. Append-only.
+  03_characters.txt           Character registry. Append-only.
 
-  06_world_notes.txt          Setting and world details. Append-only.
+  04_world_notes.txt          Setting and world details. Append-only.
 
-  07_lexicon.txt              World glossary — terms, places, slang, factions. Append-only.
+  05_lexicon.txt              World glossary — terms, places, slang, factions. Append-only.
 
-  08_story_arc.txt            Plot structure and chapter tracking. Append-only.
+  06_story_arc.txt            Plot structure and chapter tracking. Append-only.
 
-  09_ledger.txt               Living canon document. NOT append-only.
+  07_ledger.txt               Living canon document. NOT append-only.
                                Tracks current world state — who's alive, what's true.
                                Edit freely. The ledger reflects NOW.
 
@@ -48,7 +48,7 @@ MINIMUM SESSION LOAD
 
   00_spine_of_the_world.txt
   + one summon from summons/
-  + 04_latest_save.txt
+  + 02_latest_save.txt
 
 ================================================================
 FULL LOAD (recommended for working sessions)

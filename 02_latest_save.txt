@@ -1,4 +1,4 @@
-# latest_save.txt
+# 02_latest_save.txt
 # version: 1.0.0
 # POINTER FILE — always mirrors the most recent save_file<N>.txt
 # Replace this entire file with your newest save after each save.

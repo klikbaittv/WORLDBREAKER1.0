@@ -1,6 +1,6 @@
 <append only, read all entirety before responding and making decisions>
 
-# lexicon.txt
+# 05_lexicon.txt
 # version: 1.0.0
 # WORLD LEXICON — append-only
 # Add terms at the bottom. Never edit or delete above the last entry.

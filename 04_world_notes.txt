@@ -1,6 +1,6 @@
 <append only, read all entirety before responding and making decisions>
 
-# world_notes.txt
+# 04_world_notes.txt
 # version: 1.0.0
 # WORLD NOTES — append-only
 # Add world details at the bottom. Never edit or delete above the last entry.

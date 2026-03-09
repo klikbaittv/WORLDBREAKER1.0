@@ -1,6 +1,6 @@
 <append only, read all entirety before responding and making decisions>
 
-# story_arc.txt
+# 06_story_arc.txt
 # version: 1.0.0
 # STORY ARC — append-only
 # Add plot entries at the bottom. Never edit or delete above the last entry.
