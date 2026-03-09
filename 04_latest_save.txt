@@ -1,0 +1,28 @@
+# latest_save.txt
+# version: 1.0.0
+# POINTER FILE — always mirrors the most recent save_file<N>.txt
+# Replace this entire file with your newest save after each save.
+
+================================================================
+POINTER RULE
+================================================================
+
+This file must always be an exact copy of the highest-numbered save.
+When a new save is written, replace this file's contents with that save.
+
+If this file says NO SAVE YET — no saves have been made yet.
+The AI should note this and offer to write save_file1 at any point.
+
+================================================================
+CURRENT SAVE
+================================================================
+
+# NO SAVE YET
+Timestamp: —
+Project: —
+
+This project has not been saved yet.
+
+When you're ready, say "save" and the AI will write your first save file.
+
+================================================================

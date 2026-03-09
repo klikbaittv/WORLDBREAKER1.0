@@ -1,0 +1,51 @@
+<append only, read all entirety before responding and making decisions>
+
+# lexicon.txt
+# version: 1.0.0
+# WORLD LEXICON — append-only
+# Add terms at the bottom. Never edit or delete above the last entry.
+
+================================================================
+WHAT BELONGS HERE
+================================================================
+
+  - In-universe terms and vocabulary
+  - Named places, landmarks, regions
+  - Faction names and brief descriptions
+  - In-world slang, dialect, or jargon
+  - Titles, ranks, honorifics
+  - Named objects, artifacts, or concepts with specific meanings
+  - Anything your world calls something different from the real world
+
+================================================================
+FORMAT
+================================================================
+
+  TERM — [definition or description]
+  [Optional: context, usage note, or example]
+
+  Example:
+    THE HOLLOW — the uninhabited zone between faction borders.
+    No one claims it. Everyone uses it.
+    Travelers say the silence there has texture.
+
+For longer entries:
+
+  --- ENTRY: [Term] ---
+  Definition:  [core meaning]
+  Context:     [how it's used in the world]
+  Notes:       [etymology, variations, related terms]
+  --- END ENTRY ---
+
+The AI will output an entry when you say "add to lexicon: [term — definition]".
+You paste it below the most recent entry.
+
+================================================================
+LEXICON
+================================================================
+
+(No terms yet. Say "add to lexicon: [term — definition]" to start building your world's vocabulary.)
+
+--- APPEND BELOW ---
+
+<append only, read all entirety before responding and making decisions>

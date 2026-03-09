@@ -1,0 +1,56 @@
+<append only, read all entirety before responding and making decisions>
+
+# story_arc.txt
+# version: 1.0.0
+# STORY ARC — append-only
+# Add plot entries at the bottom. Never edit or delete above the last entry.
+
+================================================================
+WHAT BELONGS HERE
+================================================================
+
+  - Overall story structure (acts, major turns)
+  - Chapter or scene summaries (as you write them)
+  - Plot threads: active, resolved, abandoned
+  - Key story decisions (what you committed to)
+  - Open questions about the plot
+  - Notes on pacing, structure, things to fix
+
+================================================================
+FORMAT
+================================================================
+
+For structure overviews:
+
+  --- ARC OVERVIEW ---
+  [Write a brief sketch of the story's shape — beginning, middle, end,
+   or just what you know so far. Update as the story evolves.]
+  --- END OVERVIEW ---
+
+For chapter/scene summaries:
+
+  --- CHAPTER/SCENE: [Title or number] ---
+  Status:   [drafted | in progress | planned | cut]
+  Summary:  [What happens. Who is involved. What changes.]
+  Notes:    [Anything the AI or writer flagged. What to fix or develop.]
+  --- END CHAPTER ---
+
+For plot threads:
+
+  --- THREAD: [Name] ---
+  Status:   [active | resolved | on hold | abandoned]
+  Summary:  [What this thread is. How it connects to the main story.]
+  --- END THREAD ---
+
+The AI will output these blocks when you say "update story arc: [details]".
+You paste them below the most recent entry.
+
+================================================================
+STORY ARC
+================================================================
+
+(No arc entries yet. Say "update story arc: [what's happening in your story]" to begin.)
+
+--- APPEND BELOW ---
+
+<append only, read all entirety before responding and making decisions>

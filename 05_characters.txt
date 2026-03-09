@@ -1,0 +1,33 @@
+<append only, read all entirety before responding and making decisions>
+
+# characters.txt
+# version: 1.0.0
+# CHARACTER REGISTRY — append-only
+# Add characters at the bottom. Never edit or delete above the last entry.
+
+================================================================
+FORMAT
+================================================================
+
+When adding a character, use this format:
+
+  --- CHARACTER: [Name] ---
+  Role:         [protagonist | antagonist | supporting | minor | background]
+  First appears: [chapter/scene/note]
+  Description:  [brief physical + personality description]
+  Arc:          [what this character wants, what changes for them]
+  Notes:        [anything else worth tracking]
+  --- END CHARACTER ---
+
+The AI will output this block when you say "add a character: [name]".
+You paste it below the most recent entry.
+
+================================================================
+CHARACTERS
+================================================================
+
+(No characters added yet. Say "add a character: [name and description]" to begin.)
+
+--- APPEND BELOW ---
+
+<append only, read all entirety before responding and making decisions>

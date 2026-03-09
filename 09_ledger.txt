@@ -1,0 +1,24 @@
+# ledger.txt
+# version: 1.0.0
+# THE LEDGER — living canon document
+# NOT append-only. Edit freely. This is a snapshot, not a history.
+#
+# Use this file to track current world state:
+#   - Who is alive, where they are, what they want right now
+#   - What is currently true in the world (facts, conditions, active conflicts)
+#   - What has changed since the story began
+#   - Open questions that affect canon
+#
+# Unlike the append-only files, old entries here can be updated or removed.
+# The ledger reflects NOW. The append-only files preserve the record of HOW you got here.
+#
+# The AI reads this as authoritative current-state information.
+# If the ledger contradicts an older append-only entry, the ledger wins.
+
+================================================================
+CURRENT WORLD STATE
+================================================================
+
+(Nothing recorded yet. Begin filling this in as your world takes shape.)
+
+================================================================

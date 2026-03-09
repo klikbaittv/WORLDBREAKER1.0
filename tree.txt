@@ -1,0 +1,59 @@
+# tree.txt — spellbook_for_writers root
+# version: 1.1.0
+# Full project file tree. Update when adding files or folders.
+
+================================================================
+spellbook_for_writers/
+================================================================
+
+  00_spine_of_the_world.txt   THE authority. AI reads this first. All rules live here.
+                               Load this in every session.
+
+  README.md                   Onboarding guide. Start here if you're new.
+
+  04_latest_save.txt          Pointer to your most recent save.
+                               Always mirrors the highest-numbered save_file.
+
+  05_characters.txt           Character registry. Append-only.
+
+  06_world_notes.txt          Setting and world details. Append-only.
+
+  07_lexicon.txt              World glossary — terms, places, slang, factions. Append-only.
+
+  08_story_arc.txt            Plot structure and chapter tracking. Append-only.
+
+  09_ledger.txt               Living canon document. NOT append-only.
+                               Tracks current world state — who's alive, what's true.
+                               Edit freely. The ledger reflects NOW.
+
+  tree.txt                    This file. Project map.
+
+----------------------------------------------------------------
+  summons/                    All summon persona files live here.
+                               New character summons are always added here.
+  ├── tree.txt                Summons roster and usage guide.
+  ├── summon_template.txt     Blank template. Copy to create a new summon.
+  ├── the_archivist.txt       The Archivist — measured, ancient, precise.
+  └── orc_peon.txt            Orc Peon — simple, loyal, hardworking. Zug zug.
+
+----------------------------------------------------------------
+  save_files/                 All saves live here.
+  ├── save_template.txt       Blank save template. AI fills this on "save" trigger.
+  │                            Never edit this file manually.
+  └── save_file<N>.txt        Numbered saves. Highest number = official save.
+
+================================================================
+MINIMUM SESSION LOAD
+================================================================
+
+  00_spine_of_the_world.txt
+  + one summon from summons/
+  + 04_latest_save.txt
+
+================================================================
+FULL LOAD (recommended for working sessions)
+================================================================
+
+  All root .txt files + your chosen summon from summons/
+
+================================================================

@@ -1,0 +1,90 @@
+# save_template.txt
+# version: 1.0.0
+# BLANK TEMPLATE — never fill this in. The AI fills it when triggered.
+# When the writer says "save", output a completed version of this template
+# titled: # SAVE // save_file<N>
+
+================================================================
+INSTRUCTIONS FOR THE AI
+================================================================
+
+When a save is triggered:
+
+  1. Fill in every field below.
+  2. Output the completed block as:
+
+       # SAVE // save_file<N>
+
+     where <N> is the next save number. Check loaded saves to find the current highest.
+     If no saves are loaded and none are mentioned, start at save_file1.
+
+  3. Tell the writer:
+       "Save this as save_file<N>.txt in your save_files/ folder."
+
+  4. Output a second identical block titled:
+       # LATEST SAVE (04_latest_save.txt)
+     Tell the writer:
+       "Replace 04_latest_save.txt with this content."
+
+  5. If this is a CAMP save (triggered by the camp command):
+     - Mark the save type as "CAMP SAVE"
+     - The CAMP SAVE is the session log. Include a session summary section (see template below).
+     - Follow the full camp protocol in Section 2 of the spine after the save is written.
+
+================================================================
+SAVE TEMPLATE
+================================================================
+
+# SAVE // save_file<N>
+# version: 1.0.0
+Timestamp: <YYYY-MM-DD HH:mm>
+Save type: WORKING SAVE | CAMP SAVE
+Project: <project name — ask the writer if unknown>
+
+## What happened this session
+- <bullet: what was written, decided, developed>
+- <bullet>
+- <bullet>
+
+## Open threads
+- <bullet: unresolved questions, plot holes, things to return to>
+- <bullet>
+
+## Next session goals
+- <bullet: what to work on next time>
+- <bullet>
+
+## Notes
+- <optional: anything worth flagging — inconsistencies noticed, ideas to explore>
+
+## Session summary
+(CAMP SAVE only — omit this section for WORKING SAVE)
+- <2-4 sentences: what this session was about, what shifted, what carries forward>
+- Written in the active summon's voice if applicable.
+
+================================================================
+FIELD GUIDE FOR THE AI
+================================================================
+
+  Timestamp       Current date and time. Use the writer's local time if known.
+                  Format: YYYY-MM-DD HH:mm
+
+  Save type       WORKING SAVE — mid-session or end-of-session save.
+                  CAMP SAVE — written as part of the camp ritual.
+
+  Project         The name of the writer's project. Ask if you don't know it yet.
+
+  What happened   Specific, useful bullets. Not "we worked on the story."
+                  "Developed the backstory for [character]" or
+                  "Established that [world fact] is true" — concrete entries.
+
+  Open threads    Things the writer hasn't resolved yet. These carry forward.
+                  They are not failures — they are the map for next session.
+
+  Next session    What the writer should do when they come back.
+                  Be specific if you can.
+
+  Notes           Catch anything that might be easy to forget.
+                  Inconsistencies, promising ideas, things you flagged in session.
+
+================================================================

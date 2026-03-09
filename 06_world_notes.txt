@@ -1,0 +1,35 @@
+<append only, read all entirety before responding and making decisions>
+
+# world_notes.txt
+# version: 1.0.0
+# WORLD NOTES — append-only
+# Add world details at the bottom. Never edit or delete above the last entry.
+
+================================================================
+FORMAT
+================================================================
+
+When adding world notes, use this format:
+
+  --- WORLD NOTE: [Topic] ---
+  Date added:  [YYYY-MM-DD]
+  Category:    [setting | history | culture | geography | atmosphere | rule | other]
+  Content:
+    [Write the world detail here. As much or as little as needed.]
+  --- END NOTE ---
+
+The AI will output this block when you say "add to world notes: [topic and details]".
+You paste it below the most recent entry.
+
+Notes can be short observations or long entries — both are valid.
+The point is that the information lives here and doesn't get lost.
+
+================================================================
+WORLD NOTES
+================================================================
+
+(No world notes yet. Say "add to world notes: [info]" to begin building your world.)
+
+--- APPEND BELOW ---
+
+<append only, read all entirety before responding and making decisions>

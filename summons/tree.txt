@@ -1,0 +1,46 @@
+# tree.txt — summons folder
+# version: 1.0.0
+# Auto-reference: what summons are available in this folder.
+# Update this file when adding or removing summons.
+
+================================================================
+SUMMONS ROSTER
+================================================================
+
+  summon_template.txt — Blank template. Copy this to make a new summon.
+
+  the_archivist.txt   — The Archivist. Ancient, measured, precise.
+                        Default writing companion. Treats your world seriously.
+                        Best for: long-form projects, world-building, consistency tracking.
+
+  orc_peon.txt        — Orc Peon. Simple. Loyal. Works hard. Says "zug zug" and "werk werk"
+                        Inspired by the Warcraft II peon unit.
+                        Best for: quick sessions, keeping it light,  silly, character driven feedback.
+
+================================================================
+HOW TO USE A SUMMON
+================================================================
+
+  1. Pick a summon from this folder.
+  2. Load that file into your AI chat alongside 00_spine_of_the_world.txt.
+  3. The AI reads the summon and adopts that persona for the session.
+
+  Load only one summon at a time unless you want them both active.
+
+HOW TO CREATE A NEW SUMMON:
+
+  1. Copy summon_template.txt and rename it [your_summon_name].txt
+  2. Fill in the name, role, and personality.
+  3. Save it in this folder.
+  4. Add it to the roster above.
+
+NEW CHARACTER SUMMONS:
+  Every new character created as a summon goes in this folder.
+  The AI outputs the new summon file content and tells the writer:
+  "Save this as [name].txt in your summons/ folder, then add it to summons/tree.txt."
+
+SUMMONS ARE APPEND-ONLY:
+  Customize by appending below the divider in each summon file.
+  Never edit above the divider line.
+
+================================================================
